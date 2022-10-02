@@ -8,8 +8,10 @@
       bool
   */
 
+bool func(int a, int b){
+  return a==b;
+}
+
 void main() {
-  int a = 2;
-  int d = 2;
-  print ( a == d);
+  print (func(2,2));
 }
