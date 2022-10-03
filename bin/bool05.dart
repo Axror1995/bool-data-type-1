@@ -8,8 +8,8 @@
     */
 
 bool func (int a){
-    return a %2==0;
+    return a %2==1;
 }
 void main() {
-    print (func(8));
+    print (func(5));
 }
